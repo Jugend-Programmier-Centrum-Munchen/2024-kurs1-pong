@@ -35,8 +35,8 @@ void draw() {
 
   // neu V2
   if (random(1) < 0.5) {
-    float targetAY = ballY - 50; // Adjusted target position
-    aY = lerp(aY, targetAY, 0.1);
+    float targetAY = ballY -50; // Adjusted target position
+    aY = lerp(aY, targetAY, 0.5);
   }
 
   // Check collision with players
